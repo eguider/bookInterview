@@ -20,3 +20,38 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
+
+-------------------------------------------
+
+
+service rest
+book management
+
+add, edit, delete
+
+
+book{
+    title:String(mandatory)
+    author:String(mandatory)
+    sn:Number(between 1 and 9999)
+}
+
+BookController
+
+
+
+BookService (validate book serial number and save)
+
+
+
+
+BookRepository (list ou hashmap)
+
+
+
+- log request response, add correlation id in the http header (uuid) and add it to all log lines
+- dockerize the jar
+- simulate cache system, like what we have done with repository, create a cache service and cache the added book for 1 min
+- redis docker and use it in local to cache teh books for 1 min
+- use actuator to expose prometheus metrics (strech goal use dockerized prometheus to scrape the metrics)
+- mysqldb docker (optional)
