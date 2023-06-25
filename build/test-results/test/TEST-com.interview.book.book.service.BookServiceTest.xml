@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.interview.book.book.service.BookServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-24T15:40:16" hostname="DESKTOP-6721DF9" time="0.263">
+  <properties/>
+  <testcase name="testSave()" classname="com.interview.book.book.service.BookServiceTest" time="0.263"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

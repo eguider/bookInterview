@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.interview.book.book.BookApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-24T15:40:15" hostname="DESKTOP-6721DF9" time="1.083">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.interview.book.book.BookApplicationTests" time="1.083"/>
+  <system-out><![CDATA[16:40:13.199 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.interview.book.book.BookApplicationTests]: BookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:40:13.339 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.interview.book.book.BookApplication for test class com.interview.book.book.BookApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-06-24T16:40:13.974+01:00  INFO 12096 --- [    Test worker] c.i.book.book.BookApplicationTests       : Starting BookApplicationTests using Java 17.0.6 with PID 12096 (started by Ultrapc in C:\Users\Ultrapc\Desktop\TicketMasterInterview\bookInterview)
+2023-06-24T16:40:13.976+01:00  INFO 12096 --- [    Test worker] c.i.book.book.BookApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-06-24T16:40:15.610+01:00  INFO 12096 --- [    Test worker] c.i.book.book.BookApplicationTests       : Started BookApplicationTests in 2.007 seconds (process running for 3.808)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
